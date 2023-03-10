@@ -43,7 +43,7 @@ public class RedisDistributedLock implements Lock
     }
 
     /**
-     * 干活的，实现加锁功能，实现这一个干活的就OK，全盘通用
+     * 实现加锁功能
      * @param time
      * @param unit
      * @return
@@ -76,7 +76,7 @@ public class RedisDistributedLock implements Lock
     }
 
     /**
-     *干活的，实现解锁功能
+     * 实现解锁功能
      */
     @Override
     public void unlock()
